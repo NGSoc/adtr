@@ -1,0 +1,20 @@
+[0] Start Array
+# - - - - - - - - - - - - - - - - - - - - - #
+# Warning:                                  #
+# Do not remove any lines from this file.   #
+# Change only lines: 8, 10, 12, 14, 16, 18  #
+#                                           #
+# Company Name                              #
+Ambev
+# Owner/Analyst                             #
+Thaigo Freitas
+# Mail Server                               #
+nttdata.com
+# Port                                      #
+25
+# From                                      #
+thaigo.freitas@nttdata.com
+# To (mail1@domain.com,mail2@domain.com)    #
+thaigo.freitas@nttdata.com
+#                                           #
+# - - - - - - - - - - - - - - - - - - - - - #

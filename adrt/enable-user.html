@@ -1,0 +1,33 @@
+<script language="Javascript">
+function download(filename, text) {
+  var pom = document.createElement('a');
+  pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + 
+
+encodeURIComponent(text));
+  pom.setAttribute('download', filename);
+
+  pom.style.display = 'none';
+  document.body.appendChild(pom);
+
+  pom.click();
+
+  document.body.removeChild(pom);
+}
+
+function addTextTXT()
+{
+    document.addtext.name.value = document.addtext.name.value + ".txt"
+}
+</script>
+
+
+
+
+<form name="addtext" onsubmit="download(this['name'].value, this['text'].value)">
+
+<textarea rows="5" cols="36" name="text" placeholder="Digite o ID:"></textarea>
+<br>
+<input type="text" name="name" value="" placeholder="File Name">
+<input type="submit" onclick="addTexttxt();" value="Save As TXT">
+
+</form>
